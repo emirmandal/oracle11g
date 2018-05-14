@@ -35,3 +35,11 @@ shutdown normal            - wait for all users to disconnect
 
 shutdown abort             - fastest shutdown mode
 
+
+
+desc dba_data_files;
+
+SQL> SET LINESIZE 150
+SQL> COLUMN TABLESPACE_NAME FORMAT A30
+SQL> COLUMN FILE_NAME FORMAT A50
+
